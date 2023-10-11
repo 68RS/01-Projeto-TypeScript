@@ -20,7 +20,7 @@ interface Content {
 
 interface PostProps {
   author: Author;
-  publishedAt: string;
+  publishedAt: Date;
   content: Content[];
 }
 
